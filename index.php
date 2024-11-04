@@ -3,8 +3,6 @@ require './includes/config.php';
 $sql = "SELECT * FROM rent LIMIT 9";
 $result = mysqli_query($connection, $sql);
 $data = mysqli_fetch_all($result, MYSQLI_ASSOC);
-// Data print kari ne jovo hoi to aa function vaparvanu
-// print_r($data);
 require pathOf('includes/header.php');
 ?>
 
